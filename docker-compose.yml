@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   sqlserver:
-    image: *****/mssql-server:2022-latest
+    image: serwus79/mssql-2019-fts
     container_name: sqlserver
     restart: always
     environment:
