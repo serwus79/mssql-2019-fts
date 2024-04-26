@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Extract meta
         id: meta
-        uses: docker/metadata-action
+        uses: docker/metadata-action@v5
         with:
           images: serwus79/mssql-2019-fts:latest
       - name: Build and push
